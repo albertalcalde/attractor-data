@@ -6,3 +6,6 @@ This repository contains code for generating data from chaotic attractors in 3D 
 
 - Generates time series data from chaotic attractors in 3D ODEs.
 - Option to customize the initial condition (IC), integration time (T), step size (dt) of the ODE solver.
+
+## Wave equation in 1D
+This repository also contains code for solving the 1D wave equation using d'Alembert's formula. If the spatial domain is discretized in N_x points and the data is sampled at N_t + 1 timesteps, the time series data constists of N_t + 1 snapshots of dimension N_x containing the solution of the wave equation.
